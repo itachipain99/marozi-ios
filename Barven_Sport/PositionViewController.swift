@@ -69,7 +69,6 @@ class PositionViewController: UIViewController {
             for i in 0..<11 {
                 //false
                 if arraySoccer[i].location!.contains(sender.view!.frame){
-                    print(arraySoccer[i].location)
                     checkItempPan = i
                 }
             }
@@ -134,7 +133,7 @@ class PositionViewController: UIViewController {
     var check = true
     //SWAP SOCCER
     func swapSoccer(_ pan : UIPanGestureRecognizer,_ n : Int,_ s : Int) {
-        UIView.animate(withDuration: 0.2) {
+        UIView.animate(withDuration: 0.5) {
             self.arraySoccer[n].name?.frame.origin = CGPoint(x: self.arraySoccer[s].center!.x - self.arraySize[n].width/2, y: self.arraySoccer[s].location!.origin.y)
             pan.view?.frame.origin = CGPoint(x: self.arraySoccer[n].center!.x - self.arraySize[s].width/2, y: self.arraySoccer[n].location!.origin.y)
         }

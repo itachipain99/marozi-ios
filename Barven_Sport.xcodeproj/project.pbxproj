@@ -137,7 +137,6 @@
 			children = (
 				15B84D5A247E4D7D00A299A1 /* Barven_Sport */,
 				15B84D74247E4D8300A299A1 /* Barven_SportTests */,
-				15B84D7F247E4D8300A299A1 /* Barven_SportUITests */,
 				15B84D59247E4D7D00A299A1 /* Products */,
 				15B84D8E247E503300A299A1 /* font */,
 			);
@@ -177,6 +176,7 @@
 			children = (
 				15B84D75247E4D8300A299A1 /* Barven_SportTests.swift */,
 				15B84D77247E4D8300A299A1 /* Info.plist */,
+				15B84D7F247E4D8300A299A1 /* Barven_SportUITests */,
 			);
 			path = Barven_SportTests;
 			sourceTree = "<group>";
