@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kxE-41-gqh">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+        <array key="SF-Pro-Display-Semibold.otf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Barven_Sport" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="12j-wm-UAl">
+                                <rect key="frame" x="454.5" y="246.5" width="115" height="159.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoApp" translatesAutoresizingMaskIntoConstraints="NO" id="BJv-hE-5uI">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="114.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="BJv-hE-5uI" secondAttribute="height" multiplier="1:1" id="wD3-Pb-Z1X"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="-5" translatesAutoresizingMaskIntoConstraints="NO" id="mMC-Bj-6sg">
+                                        <rect key="frame" x="7.5" y="114.5" width="100.5" height="45"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="BRAVEN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="i6p-IP-s12">
+                                                <rect key="frame" x="0.0" y="0.0" width="100.5" height="32"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="26.5"/>
+                                                <color key="textColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPORT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tuh-mW-ljM">
+                                                <rect key="frame" x="26" y="27" width="48" height="18"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="i6p-IP-s12" firstAttribute="width" secondItem="mMC-Bj-6sg" secondAttribute="width" id="8GT-dB-152"/>
+                                            <constraint firstItem="tuh-mW-ljM" firstAttribute="width" secondItem="i6p-IP-s12" secondAttribute="width" multiplier="0.478405" id="rGy-KR-eLf"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="BJv-hE-5uI" firstAttribute="width" secondItem="12j-wm-UAl" secondAttribute="width" id="F8n-nU-fK7"/>
+                                </constraints>
+                            </stackView>
+                            <progressView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="SmB-lz-d0k">
+                                <rect key="frame" x="384" y="671" width="256" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="ijA-t4-E0e"/>
+                                </constraints>
+                                <color key="progressTintColor" red="1" green="0.57039922480000005" blue="0.080117739739999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" red="0.46274509803921571" green="0.46274509803921571" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="12j-wm-UAl" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="0.85" id="5A8-eo-WNT"/>
+                            <constraint firstItem="12j-wm-UAl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8rz-Qf-WHZ"/>
+                            <constraint firstItem="SmB-lz-d0k" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.75" id="dC3-uZ-jmh"/>
+                            <constraint firstItem="SmB-lz-d0k" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.25" id="e05-Vq-b5P"/>
+                            <constraint firstItem="12j-wm-UAl" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.111979" id="f1z-20-tIv"/>
+                            <constraint firstItem="SmB-lz-d0k" firstAttribute="centerX" secondItem="12j-wm-UAl" secondAttribute="centerX" id="mUf-tm-I0p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hsE-xL-nBM">
+            <objects>
+                <viewController id="5cM-0D-PFW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x6j-7c-VCQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="58Q-oM-Oeh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t1d-Rj-L43" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888" y="113"/>
+        </scene>
+        <!--Position View Controller-->
+        <scene sceneID="yEe-JV-O7Y">
+            <objects>
+                <viewController id="kxE-41-gqh" customClass="PositionViewController" customModule="Barven_Sport" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GpB-l5-smB">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="P9S-Qe-0v1">
+                                <rect key="frame" x="51" y="0.0" width="922" height="768"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7Kq-cH-jdv">
+                                        <rect key="frame" x="0.0" y="0.0" width="922" height="77"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMx-wI-yt8">
+                                                <rect key="frame" x="0.0" y="0.0" width="307.5" height="77"/>
+                                                <color key="tintColor" red="1" green="0.57039922480000005" blue="0.080117739739999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="chevron.left" catalog="system"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Position" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5JD-7F-5se">
+                                                <rect key="frame" x="307.5" y="0.0" width="307" height="77"/>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact-widthClass=compact">
+                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="25"/>
+                                                </variation>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxP-Yf-xje">
+                                                <rect key="frame" x="614.5" y="0.0" width="307.5" height="77"/>
+                                                <color key="tintColor" red="1" green="0.57039922480000005" blue="0.080117739739999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" image="chevron.right" catalog="system"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lim-c9-2Iv">
+                                        <rect key="frame" x="0.0" y="77" width="922" height="691"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GeO-Dy-0j9" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                <rect key="frame" x="747.5" y="0.0" width="174.5" height="671"/>
+                                                <subviews>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="V9R-ey-pxn">
+                                                        <rect key="frame" x="3" y="3" width="168.5" height="665"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                        <prototypes>
+                                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TacticalTableViewCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TacticalTableViewCell" id="lxt-0f-IAT" customClass="TacticalTableViewCell" customModule="Barven_Sport" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="28" width="168.5" height="44"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lxt-0f-IAT" id="5BD-yX-jCs">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="168.5" height="44"/>
+                                                                    <autoresizingMask key="autoresizingMask"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4-2-3-1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QW-aZ-kMl">
+                                                                            <rect key="frame" x="30" y="7" width="87" height="30"/>
+                                                                            <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="18"/>
+                                                                            <color key="textColor" red="0.38039215686274508" green="0.38039215686274508" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                            <variation key="heightClass=compact-widthClass=compact">
+                                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                                                                            </variation>
+                                                                            <variation key="heightClass=regular-widthClass=regular">
+                                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="25"/>
+                                                                            </variation>
+                                                                        </label>
+                                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sJk-ZF-4zR">
+                                                                            <rect key="frame" x="30" y="43" width="138.5" height="1"/>
+                                                                            <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="1" id="o1k-mY-AxF"/>
+                                                                            </constraints>
+                                                                        </view>
+                                                                    </subviews>
+                                                                    <constraints>
+                                                                        <constraint firstItem="sJk-ZF-4zR" firstAttribute="leading" secondItem="1QW-aZ-kMl" secondAttribute="leading" id="MSS-zo-jvv"/>
+                                                                        <constraint firstItem="1QW-aZ-kMl" firstAttribute="centerY" secondItem="5BD-yX-jCs" secondAttribute="centerY" id="TCE-ec-Lxy"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="sJk-ZF-4zR" secondAttribute="trailing" id="hcy-eu-SHQ"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="sJk-ZF-4zR" secondAttribute="bottom" id="peu-Pd-FQm"/>
+                                                                        <constraint firstItem="1QW-aZ-kMl" firstAttribute="leading" secondItem="5BD-yX-jCs" secondAttribute="leading" constant="30" id="u2s-2q-qq0"/>
+                                                                    </constraints>
+                                                                    <variation key="heightClass=compact-widthClass=compact">
+                                                                        <mask key="constraints">
+                                                                            <include reference="u2s-2q-qq0"/>
+                                                                        </mask>
+                                                                    </variation>
+                                                                    <variation key="heightClass=compact-widthClass=regular">
+                                                                        <mask key="constraints">
+                                                                            <include reference="u2s-2q-qq0"/>
+                                                                        </mask>
+                                                                    </variation>
+                                                                </tableViewCellContentView>
+                                                                <connections>
+                                                                    <outlet property="lbl_tactical" destination="1QW-aZ-kMl" id="gZl-s5-iYg"/>
+                                                                </connections>
+                                                            </tableViewCell>
+                                                        </prototypes>
+                                                    </tableView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="V9R-ey-pxn" secondAttribute="bottom" constant="3" id="BBc-dm-Ccg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="V9R-ey-pxn" secondAttribute="trailing" constant="3" id="Cw3-iL-fqM"/>
+                                                    <constraint firstItem="V9R-ey-pxn" firstAttribute="leading" secondItem="GeO-Dy-0j9" secondAttribute="leading" constant="3" id="NeQ-zA-Ynf"/>
+                                                    <constraint firstItem="V9R-ey-pxn" firstAttribute="top" secondItem="GeO-Dy-0j9" secondAttribute="top" constant="3" id="TVW-Dl-6JM"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="conerRadius">
+                                                        <real key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUt-vA-WWW" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="737.5" height="671"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="NUM-YB-ytu">
+                                                        <rect key="frame" x="337" y="33" width="63.5" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0g-mw-fEk">
+                                                                <rect key="frame" x="0.0" y="0.0" width="63.5" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J1t-sU-7ez" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="-8.5" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Anthony Martial" translatesAutoresizingMaskIntoConstraints="NO" id="sZS-0a-bXN">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="sZS-0a-bXN" secondAttribute="height" id="MOM-Yz-wu4"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="J1t-sU-7ez" secondAttribute="height" multiplier="1:1" id="Ld5-sU-Bxs"/>
+                                                                            <constraint firstItem="sZS-0a-bXN" firstAttribute="centerX" secondItem="J1t-sU-7ez" secondAttribute="centerX" id="ipY-e1-9nn"/>
+                                                                            <constraint firstItem="sZS-0a-bXN" firstAttribute="centerY" secondItem="J1t-sU-7ez" secondAttribute="centerY" id="pki-m4-rLN"/>
+                                                                            <constraint firstItem="sZS-0a-bXN" firstAttribute="width" secondItem="J1t-sU-7ez" secondAttribute="width" id="yyE-CT-fbf"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="J1t-sU-7ez" firstAttribute="centerY" secondItem="j0g-mw-fEk" secondAttribute="centerY" id="CcY-gt-8d7"/>
+                                                                    <constraint firstItem="J1t-sU-7ez" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="irt-n5-jfH"/>
+                                                                    <constraint firstItem="J1t-sU-7ez" firstAttribute="centerX" secondItem="j0g-mw-fEk" secondAttribute="centerX" id="qMV-ol-s3a"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Martian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tzk-5e-5ra">
+                                                                <rect key="frame" x="0.0" y="80.5" width="63.5" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="aL0-eV-Xcb" appends="YES" id="Yd2-wv-ZNL"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ynX-QK-Gr4">
+                                                        <rect key="frame" x="120.5" y="167.5" width="69" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="roh-0i-JsT">
+                                                                <rect key="frame" x="0.0" y="0.0" width="69" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1O-3i-SAw" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="-5.5" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marcus Rashford" translatesAutoresizingMaskIntoConstraints="NO" id="HMq-5K-aI0">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="HMq-5K-aI0" secondAttribute="height" id="g94-qm-1JM"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="h1O-3i-SAw" secondAttribute="height" multiplier="1:1" id="2Qd-eF-npv"/>
+                                                                            <constraint firstItem="HMq-5K-aI0" firstAttribute="centerX" secondItem="h1O-3i-SAw" secondAttribute="centerX" id="Psw-Qc-TgY"/>
+                                                                            <constraint firstItem="HMq-5K-aI0" firstAttribute="width" secondItem="h1O-3i-SAw" secondAttribute="width" id="cH9-YQ-V2m"/>
+                                                                            <constraint firstItem="HMq-5K-aI0" firstAttribute="centerY" secondItem="h1O-3i-SAw" secondAttribute="centerY" id="hXT-Bb-crN"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="h1O-3i-SAw" firstAttribute="centerY" secondItem="roh-0i-JsT" secondAttribute="centerY" id="6fQ-th-GJO"/>
+                                                                    <constraint firstItem="h1O-3i-SAw" firstAttribute="height" secondItem="roh-0i-JsT" secondAttribute="height" id="a9g-Ru-uf7"/>
+                                                                    <constraint firstItem="h1O-3i-SAw" firstAttribute="centerX" secondItem="roh-0i-JsT" secondAttribute="centerX" id="bAC-p9-EaI"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rashford" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRR-4R-wrm">
+                                                                <rect key="frame" x="0.0" y="80.5" width="69" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38039215686274508" green="0.38039215686274508" blue="0.38039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="Wxs-q6-99c" appends="YES" id="fKU-ya-F2m"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hks-mZ-aiz">
+                                                        <rect key="frame" x="533" y="167.5" width="99.5" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dw0-0K-eaw">
+                                                                <rect key="frame" x="0.0" y="0.0" width="99.5" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRK-c4-lqh" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="9.5" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mason Greenwood" translatesAutoresizingMaskIntoConstraints="NO" id="anE-un-Ijd">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="anE-un-Ijd" secondAttribute="height" id="ayv-nt-ioi"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="anE-un-Ijd" firstAttribute="centerX" secondItem="mRK-c4-lqh" secondAttribute="centerX" id="JER-0V-9xv"/>
+                                                                            <constraint firstItem="anE-un-Ijd" firstAttribute="centerY" secondItem="mRK-c4-lqh" secondAttribute="centerY" id="doy-8e-Tya"/>
+                                                                            <constraint firstItem="anE-un-Ijd" firstAttribute="width" secondItem="mRK-c4-lqh" secondAttribute="width" id="sue-cB-uTe"/>
+                                                                            <constraint firstAttribute="width" secondItem="mRK-c4-lqh" secondAttribute="height" multiplier="1:1" id="tgu-OZ-Uxo"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="mRK-c4-lqh" firstAttribute="height" secondItem="dw0-0K-eaw" secondAttribute="height" id="7IJ-DE-3ua"/>
+                                                                    <constraint firstItem="mRK-c4-lqh" firstAttribute="centerX" secondItem="dw0-0K-eaw" secondAttribute="centerX" id="WSz-H4-O9r"/>
+                                                                    <constraint firstItem="mRK-c4-lqh" firstAttribute="centerY" secondItem="dw0-0K-eaw" secondAttribute="centerY" id="khP-nK-jKr"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GreenWood" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQg-we-zd0">
+                                                                <rect key="frame" x="0.0" y="80.5" width="99.5" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="c4c-Mq-vxX" appends="YES" id="Deh-v1-ECa"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-uP-77d">
+                                                        <rect key="frame" x="319" y="200" width="99.5" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8VF-vG-0y2">
+                                                                <rect key="frame" x="0.0" y="0.0" width="99.5" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a1d-8G-TlB" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="9.5" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bruno Fernandes" translatesAutoresizingMaskIntoConstraints="NO" id="hbW-72-nGo">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="hbW-72-nGo" secondAttribute="height" id="zIM-Qt-h7q"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="hbW-72-nGo" firstAttribute="centerX" secondItem="a1d-8G-TlB" secondAttribute="centerX" id="85D-s0-tNB"/>
+                                                                            <constraint firstAttribute="width" secondItem="a1d-8G-TlB" secondAttribute="height" multiplier="1:1" id="PWU-6K-OW3"/>
+                                                                            <constraint firstItem="hbW-72-nGo" firstAttribute="width" secondItem="a1d-8G-TlB" secondAttribute="width" id="eSK-wP-cwE"/>
+                                                                            <constraint firstItem="hbW-72-nGo" firstAttribute="centerY" secondItem="a1d-8G-TlB" secondAttribute="centerY" id="s1X-07-BKu"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="a1d-8G-TlB" firstAttribute="height" secondItem="8VF-vG-0y2" secondAttribute="height" id="4hM-9c-QWL"/>
+                                                                    <constraint firstItem="a1d-8G-TlB" firstAttribute="centerX" secondItem="8VF-vG-0y2" secondAttribute="centerX" id="QRP-mo-28u"/>
+                                                                    <constraint firstItem="a1d-8G-TlB" firstAttribute="centerY" secondItem="8VF-vG-0y2" secondAttribute="centerY" id="uyT-0v-DWN"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bruno" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTh-Ig-eYe">
+                                                                <rect key="frame" x="0.0" y="80.5" width="99.5" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="57j-Mi-pgc" appends="YES" id="Ujc-iB-MR2"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="RI1-XU-N3b">
+                                                        <rect key="frame" x="240.5" y="285" width="50" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSd-eQ-cl4">
+                                                                <rect key="frame" x="0.0" y="0.0" width="50" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HNC-Rm-CSO" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="-15" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Paul Pogba 1" translatesAutoresizingMaskIntoConstraints="NO" id="KCP-gU-FAW">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <gestureRecognizers/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="KCP-gU-FAW" secondAttribute="height" id="Qcr-ut-PKm"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" secondItem="HNC-Rm-CSO" secondAttribute="height" multiplier="1:1" id="Myt-Sg-Yp1"/>
+                                                                            <constraint firstItem="KCP-gU-FAW" firstAttribute="width" secondItem="HNC-Rm-CSO" secondAttribute="width" id="QMt-b9-8gk"/>
+                                                                            <constraint firstItem="KCP-gU-FAW" firstAttribute="centerY" secondItem="HNC-Rm-CSO" secondAttribute="centerY" id="YgC-XV-4RL"/>
+                                                                            <constraint firstItem="KCP-gU-FAW" firstAttribute="centerX" secondItem="HNC-Rm-CSO" secondAttribute="centerX" id="aeg-GX-Mgq"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="HNC-Rm-CSO" firstAttribute="centerX" secondItem="hSd-eQ-cl4" secondAttribute="centerX" id="Vs1-iz-YTi"/>
+                                                                    <constraint firstItem="HNC-Rm-CSO" firstAttribute="centerY" secondItem="hSd-eQ-cl4" secondAttribute="centerY" id="ZID-yt-G2T"/>
+                                                                    <constraint firstItem="HNC-Rm-CSO" firstAttribute="height" secondItem="hSd-eQ-cl4" secondAttribute="height" id="Zur-iw-GcW"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pogba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Nw-EX-V8K">
+                                                                <rect key="frame" x="0.0" y="80.5" width="50" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="mwR-Sp-imA" appends="YES" id="cDH-J0-pp3"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="E31-Qz-mOC">
+                                                        <rect key="frame" x="424" y="285" width="96" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ys-cC-DsO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="96" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1B5-Iq-7LY" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="8" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Scott McTominay" translatesAutoresizingMaskIntoConstraints="NO" id="rs0-Gq-MnR">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="rs0-Gq-MnR" secondAttribute="height" id="O93-DH-IJX"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="rs0-Gq-MnR" firstAttribute="width" secondItem="1B5-Iq-7LY" secondAttribute="width" id="Cpi-Br-mrY"/>
+                                                                            <constraint firstItem="rs0-Gq-MnR" firstAttribute="centerY" secondItem="1B5-Iq-7LY" secondAttribute="centerY" id="VMt-Gl-JRR"/>
+                                                                            <constraint firstAttribute="width" secondItem="1B5-Iq-7LY" secondAttribute="height" multiplier="1:1" id="pfz-V1-uRd"/>
+                                                                            <constraint firstItem="rs0-Gq-MnR" firstAttribute="centerX" secondItem="1B5-Iq-7LY" secondAttribute="centerX" id="zSE-a7-IVJ"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="1B5-Iq-7LY" firstAttribute="height" secondItem="2ys-cC-DsO" secondAttribute="height" id="SoQ-SN-uPR"/>
+                                                                    <constraint firstItem="1B5-Iq-7LY" firstAttribute="centerY" secondItem="2ys-cC-DsO" secondAttribute="centerY" id="aG4-dM-r05"/>
+                                                                    <constraint firstItem="1B5-Iq-7LY" firstAttribute="centerX" secondItem="2ys-cC-DsO" secondAttribute="centerX" id="pZG-vG-t1L"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="McTominay" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnG-ox-nOp">
+                                                                <rect key="frame" x="0.0" y="80.5" width="96" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="DgS-Sy-ZPj" appends="YES" id="uR5-KM-DNm"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3IR-IJ-NSs">
+                                                        <rect key="frame" x="56.5" y="452.5" width="86" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGl-bm-2M0">
+                                                                <rect key="frame" x="0.0" y="0.0" width="86" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="olR-G1-h1v" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="3" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Luke Shaw" translatesAutoresizingMaskIntoConstraints="NO" id="BMU-ee-haQ">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="BMU-ee-haQ" secondAttribute="height" id="BBL-hq-F3g"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="BMU-ee-haQ" firstAttribute="centerY" secondItem="olR-G1-h1v" secondAttribute="centerY" id="1Uj-WY-eZS"/>
+                                                                            <constraint firstItem="BMU-ee-haQ" firstAttribute="centerX" secondItem="olR-G1-h1v" secondAttribute="centerX" id="OBG-da-r16"/>
+                                                                            <constraint firstItem="BMU-ee-haQ" firstAttribute="width" secondItem="olR-G1-h1v" secondAttribute="width" id="a9D-K2-9En"/>
+                                                                            <constraint firstAttribute="width" secondItem="olR-G1-h1v" secondAttribute="height" multiplier="1:1" id="dkR-Rn-5Eu"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="olR-G1-h1v" firstAttribute="height" secondItem="EGl-bm-2M0" secondAttribute="height" id="Du2-eq-xGq"/>
+                                                                    <constraint firstItem="olR-G1-h1v" firstAttribute="centerY" secondItem="EGl-bm-2M0" secondAttribute="centerY" id="tRh-5h-vic"/>
+                                                                    <constraint firstItem="olR-G1-h1v" firstAttribute="centerX" secondItem="EGl-bm-2M0" secondAttribute="centerX" id="zX1-W1-6qp"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shaw" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4bA-FQ-gYR">
+                                                                <rect key="frame" x="0.0" y="80.5" width="86" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="nBm-9x-ZRj" appends="YES" id="Isf-Eq-sdN"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qRC-6C-PLu">
+                                                        <rect key="frame" x="204" y="452.5" width="86" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uI3-5y-KvL">
+                                                                <rect key="frame" x="0.0" y="0.0" width="86" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ay4-CV-dJg" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="3" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Harry Maguire 1" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-gG-qwy">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="WPd-gG-qwy" secondAttribute="height" id="GaV-bK-8sl"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="WPd-gG-qwy" firstAttribute="width" secondItem="ay4-CV-dJg" secondAttribute="width" id="4fZ-In-GKo"/>
+                                                                            <constraint firstItem="WPd-gG-qwy" firstAttribute="centerX" secondItem="ay4-CV-dJg" secondAttribute="centerX" id="5ID-oZ-4P8"/>
+                                                                            <constraint firstAttribute="width" secondItem="ay4-CV-dJg" secondAttribute="height" multiplier="1:1" id="U5H-hB-XFB"/>
+                                                                            <constraint firstItem="WPd-gG-qwy" firstAttribute="centerY" secondItem="ay4-CV-dJg" secondAttribute="centerY" id="onn-hu-wSR"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="ay4-CV-dJg" firstAttribute="height" secondItem="uI3-5y-KvL" secondAttribute="height" id="Su2-q3-R60"/>
+                                                                    <constraint firstItem="ay4-CV-dJg" firstAttribute="centerX" secondItem="uI3-5y-KvL" secondAttribute="centerX" id="WU4-wY-aLo"/>
+                                                                    <constraint firstItem="ay4-CV-dJg" firstAttribute="centerY" secondItem="uI3-5y-KvL" secondAttribute="centerY" id="b6l-uM-2jw"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maguire" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufj-g7-Q4c">
+                                                                <rect key="frame" x="0.0" y="80.5" width="86" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="b0k-dx-Cwj" appends="YES" id="hVm-YX-5tb"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MG1-sg-8DI">
+                                                        <rect key="frame" x="447.5" y="452.5" width="86" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iaj-te-hJz">
+                                                                <rect key="frame" x="0.0" y="0.0" width="86" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ll-4R-RXn" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="2.5" y="0.0" width="81" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eric Bailly 1" translatesAutoresizingMaskIntoConstraints="NO" id="Mby-t0-xjC">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="81" height="80.5"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="Mby-t0-xjC" secondAttribute="height" id="BVb-8E-sdW"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="Mby-t0-xjC" firstAttribute="centerY" secondItem="7ll-4R-RXn" secondAttribute="centerY" id="DMg-OB-wjJ"/>
+                                                                            <constraint firstItem="Mby-t0-xjC" firstAttribute="width" secondItem="7ll-4R-RXn" secondAttribute="width" id="cM5-d5-buN"/>
+                                                                            <constraint firstAttribute="width" secondItem="7ll-4R-RXn" secondAttribute="height" multiplier="1:1" id="qS1-k5-0yy"/>
+                                                                            <constraint firstItem="Mby-t0-xjC" firstAttribute="centerX" secondItem="7ll-4R-RXn" secondAttribute="centerX" id="uwf-Xp-xxb"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="7ll-4R-RXn" firstAttribute="centerX" secondItem="iaj-te-hJz" secondAttribute="centerX" id="Eag-K9-jVz"/>
+                                                                    <constraint firstItem="7ll-4R-RXn" firstAttribute="centerY" secondItem="iaj-te-hJz" secondAttribute="centerY" id="iDC-zY-sUx"/>
+                                                                    <constraint firstItem="7ll-4R-RXn" firstAttribute="height" secondItem="iaj-te-hJz" secondAttribute="height" id="pon-yj-RvF"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bailly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y9-ti-Jwv">
+                                                                <rect key="frame" x="0.0" y="80.5" width="86" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="cO2-SP-eTX" appends="YES" id="HnK-uh-LV5"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="x2a-le-Is1">
+                                                        <rect key="frame" x="593" y="452.5" width="90" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HD1-ab-U9h">
+                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wNK-4w-raK" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="4.5" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Aaron Wan-Bissaka" translatesAutoresizingMaskIntoConstraints="NO" id="582-o9-OeE">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <gestureRecognizers/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="582-o9-OeE" secondAttribute="height" id="TDi-Jc-YpE"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="582-o9-OeE" firstAttribute="centerX" secondItem="wNK-4w-raK" secondAttribute="centerX" id="40r-xf-7Ap"/>
+                                                                            <constraint firstItem="582-o9-OeE" firstAttribute="centerY" secondItem="wNK-4w-raK" secondAttribute="centerY" id="Pcl-3c-HOC"/>
+                                                                            <constraint firstAttribute="width" secondItem="wNK-4w-raK" secondAttribute="height" multiplier="1:1" id="a2g-o9-gbH"/>
+                                                                            <constraint firstItem="582-o9-OeE" firstAttribute="width" secondItem="wNK-4w-raK" secondAttribute="width" id="uz8-JX-uWd"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="wNK-4w-raK" firstAttribute="centerX" secondItem="HD1-ab-U9h" secondAttribute="centerX" id="HMs-yG-0Ah"/>
+                                                                    <constraint firstItem="wNK-4w-raK" firstAttribute="centerY" secondItem="HD1-ab-U9h" secondAttribute="centerY" id="NpO-mh-3NX"/>
+                                                                    <constraint firstItem="wNK-4w-raK" firstAttribute="height" secondItem="HD1-ab-U9h" secondAttribute="height" id="h0D-gb-zZd"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wan-bisaka" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeM-y9-wBL">
+                                                                <rect key="frame" x="0.0" y="80.5" width="90" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="gL4-Vj-2b6" appends="YES" id="0bS-VG-XFH"/>
+                                                        </connections>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WCl-Q5-d3w">
+                                                        <rect key="frame" x="340.5" y="536.5" width="57" height="101"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wQl-eV-jFl">
+                                                                <rect key="frame" x="0.0" y="0.0" width="57" height="80.5"/>
+                                                                <subviews>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qT9-Sx-up7" customClass="CustomUIView" customModule="Barven_Sport" customModuleProvider="target">
+                                                                        <rect key="frame" x="-12" y="0.0" width="80.5" height="80.5"/>
+                                                                        <subviews>
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="De Gea 1" translatesAutoresizingMaskIntoConstraints="NO" id="ewN-vl-itA">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="80.5"/>
+                                                                                <color key="backgroundColor" red="0.8155969381" green="0.81573778389999996" blue="0.81558805700000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" secondItem="ewN-vl-itA" secondAttribute="height" id="NX1-yt-Wny"/>
+                                                                                </constraints>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <gestureRecognizers/>
+                                                                        <constraints>
+                                                                            <constraint firstItem="ewN-vl-itA" firstAttribute="centerY" secondItem="qT9-Sx-up7" secondAttribute="centerY" id="IcW-Of-oo6"/>
+                                                                            <constraint firstItem="ewN-vl-itA" firstAttribute="width" secondItem="qT9-Sx-up7" secondAttribute="width" id="LGe-2I-3al"/>
+                                                                            <constraint firstAttribute="width" secondItem="qT9-Sx-up7" secondAttribute="height" multiplier="1:1" id="YHq-fh-ZCR"/>
+                                                                            <constraint firstItem="ewN-vl-itA" firstAttribute="centerX" secondItem="qT9-Sx-up7" secondAttribute="centerX" id="cFX-kh-iZm"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="_circle" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </view>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstItem="qT9-Sx-up7" firstAttribute="centerY" secondItem="wQl-eV-jFl" secondAttribute="centerY" id="fL4-C2-qkW"/>
+                                                                    <constraint firstItem="qT9-Sx-up7" firstAttribute="centerX" secondItem="wQl-eV-jFl" secondAttribute="centerX" id="oD9-Us-E7h"/>
+                                                                    <constraint firstItem="qT9-Sx-up7" firstAttribute="height" secondItem="wQl-eV-jFl" secondAttribute="height" id="tA7-pd-wuT"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="De Gea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0H-1Q-fSg">
+                                                                <rect key="frame" x="0.0" y="80.5" width="57" height="20.5"/>
+                                                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="10.5"/>
+                                                                <color key="textColor" red="0.38034743069999999" green="0.38041785360000002" blue="0.38034301999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <variation key="heightClass=compact-widthClass=compact">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="8"/>
+                                                                </variation>
+                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                    <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
+                                                                </variation>
+                                                            </label>
+                                                        </subviews>
+                                                        <gestureRecognizers/>
+                                                        <connections>
+                                                            <outletCollection property="gestureRecognizers" destination="1Dy-sf-LVT" appends="YES" id="d2l-pc-EvG"/>
+                                                        </connections>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <gestureRecognizers/>
+                                                <constraints>
+                                                    <constraint firstItem="E31-Qz-mOC" firstAttribute="centerY" secondItem="RI1-XU-N3b" secondAttribute="centerY" id="21I-2z-esd"/>
+                                                    <constraint firstItem="hSd-eQ-cl4" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="2PW-i0-J0p"/>
+                                                    <constraint firstItem="x2a-le-Is1" firstAttribute="centerY" secondItem="3IR-IJ-NSs" secondAttribute="centerY" id="3wX-g8-mcK"/>
+                                                    <constraint firstItem="E31-Qz-mOC" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="1.28" id="5PX-q1-RI3"/>
+                                                    <constraint firstItem="iaj-te-hJz" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="7mf-ji-08w"/>
+                                                    <constraint firstItem="j0g-mw-fEk" firstAttribute="height" secondItem="hUt-vA-WWW" secondAttribute="height" multiplier="0.15" id="8PX-Ag-3dS"/>
+                                                    <constraint firstItem="hks-mZ-aiz" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="1.58" id="95R-J1-5Zm"/>
+                                                    <constraint firstItem="EGl-bm-2M0" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="A1R-zw-PPq"/>
+                                                    <constraint firstItem="NUM-YB-ytu" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" id="ADt-Z4-n2B"/>
+                                                    <constraint firstItem="roh-0i-JsT" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="AWu-8v-4Fz"/>
+                                                    <constraint firstItem="uI3-5y-KvL" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="Ifs-iu-ccA"/>
+                                                    <constraint firstItem="WCl-Q5-d3w" firstAttribute="centerY" secondItem="hUt-vA-WWW" secondAttribute="centerY" multiplier="1.75" id="L1c-Bc-cOc"/>
+                                                    <constraint firstItem="WCl-Q5-d3w" firstAttribute="centerX" secondItem="NUM-YB-ytu" secondAttribute="centerX" id="LBB-cv-Vbn"/>
+                                                    <constraint firstItem="hks-mZ-aiz" firstAttribute="centerY" secondItem="ynX-QK-Gr4" secondAttribute="centerY" id="MyT-eP-w7N"/>
+                                                    <constraint firstItem="3IR-IJ-NSs" firstAttribute="centerY" secondItem="hUt-vA-WWW" secondAttribute="centerY" multiplier="1.5" id="NWc-xx-sW2"/>
+                                                    <constraint firstItem="RI1-XU-N3b" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="0.72" id="Naz-ba-Udj"/>
+                                                    <constraint firstItem="x2a-le-Is1" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="1.73" id="P4J-LE-kjz"/>
+                                                    <constraint firstItem="ynX-QK-Gr4" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="0.42" id="P8x-cV-wWk"/>
+                                                    <constraint firstItem="HD1-ab-U9h" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="RTg-hQ-xfA"/>
+                                                    <constraint firstItem="MG1-sg-8DI" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="1.33" id="TWX-ZK-alc"/>
+                                                    <constraint firstItem="NUM-YB-ytu" firstAttribute="centerY" secondItem="hUt-vA-WWW" secondAttribute="centerY" multiplier="0.25" id="Tjc-HS-SHL"/>
+                                                    <constraint firstItem="wQl-eV-jFl" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="YpF-du-jtW"/>
+                                                    <constraint firstItem="CR0-uP-77d" firstAttribute="centerX" secondItem="NUM-YB-ytu" secondAttribute="centerX" id="bal-rO-SI5"/>
+                                                    <constraint firstItem="MG1-sg-8DI" firstAttribute="centerY" secondItem="qRC-6C-PLu" secondAttribute="centerY" id="cRd-C4-J0K"/>
+                                                    <constraint firstItem="CR0-uP-77d" firstAttribute="centerY" secondItem="hks-mZ-aiz" secondAttribute="centerY" multiplier="1.15" id="eN3-Fp-Jet"/>
+                                                    <constraint firstItem="ynX-QK-Gr4" firstAttribute="centerY" secondItem="hUt-vA-WWW" secondAttribute="centerY" multiplier="0.65" id="eV3-JL-78L"/>
+                                                    <constraint firstItem="2ys-cC-DsO" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="huk-Ln-J8B"/>
+                                                    <constraint firstItem="8VF-vG-0y2" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="iRb-2Z-6YR"/>
+                                                    <constraint firstItem="RI1-XU-N3b" firstAttribute="centerY" secondItem="hUt-vA-WWW" secondAttribute="centerY" id="ibU-gx-gVa"/>
+                                                    <constraint firstItem="3IR-IJ-NSs" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="0.27" id="myv-gT-amg"/>
+                                                    <constraint firstItem="dw0-0K-eaw" firstAttribute="height" secondItem="j0g-mw-fEk" secondAttribute="height" id="q9j-X4-1OF"/>
+                                                    <constraint firstItem="qRC-6C-PLu" firstAttribute="centerX" secondItem="hUt-vA-WWW" secondAttribute="centerX" multiplier="0.67" id="qar-oX-kgT"/>
+                                                    <constraint firstItem="qRC-6C-PLu" firstAttribute="centerY" secondItem="3IR-IJ-NSs" secondAttribute="centerY" id="sfu-su-3Zu"/>
+                                                    <constraint firstItem="j0g-mw-fEk" firstAttribute="height" secondItem="hUt-vA-WWW" secondAttribute="height" multiplier="0.12" id="vDe-Ct-H7l"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="conerRadius">
+                                                        <real key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="vDe-Ct-H7l"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <mask key="constraints">
+                                                        <exclude reference="8PX-Ag-3dS"/>
+                                                        <include reference="vDe-Ct-H7l"/>
+                                                    </mask>
+                                                </variation>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="GeO-Dy-0j9" secondAttribute="bottom" constant="10" id="Gow-Mn-uwt"/>
+                                            <constraint firstItem="hUt-vA-WWW" firstAttribute="leading" secondItem="Lim-c9-2Iv" secondAttribute="leading" id="K3g-fl-Qbc"/>
+                                            <constraint firstAttribute="trailing" secondItem="GeO-Dy-0j9" secondAttribute="trailing" id="Wg2-dd-zef"/>
+                                            <constraint firstAttribute="bottom" secondItem="GeO-Dy-0j9" secondAttribute="bottom" constant="20" id="YyV-e3-iWt"/>
+                                            <constraint firstAttribute="bottom" secondItem="hUt-vA-WWW" secondAttribute="bottom" constant="10" id="fgU-2z-9nq"/>
+                                            <constraint firstItem="GeO-Dy-0j9" firstAttribute="leading" secondItem="hUt-vA-WWW" secondAttribute="trailing" constant="10" id="hAi-YL-7gD"/>
+                                            <constraint firstItem="GeO-Dy-0j9" firstAttribute="top" secondItem="Lim-c9-2Iv" secondAttribute="top" id="hlN-KB-nIM"/>
+                                            <constraint firstItem="hUt-vA-WWW" firstAttribute="width" secondItem="Lim-c9-2Iv" secondAttribute="width" multiplier="0.8" id="qrU-x6-Tzl"/>
+                                            <constraint firstAttribute="bottom" secondItem="hUt-vA-WWW" secondAttribute="bottom" constant="20" id="ssB-ZN-U7r"/>
+                                            <constraint firstItem="hUt-vA-WWW" firstAttribute="top" secondItem="Lim-c9-2Iv" secondAttribute="top" id="zYc-s1-rzc"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="ssB-ZN-U7r"/>
+                                                <exclude reference="YyV-e3-iWt"/>
+                                            </mask>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <mask key="constraints">
+                                                <exclude reference="fgU-2z-9nq"/>
+                                                <include reference="ssB-ZN-U7r"/>
+                                                <exclude reference="Gow-Mn-uwt"/>
+                                                <include reference="YyV-e3-iWt"/>
+                                            </mask>
+                                        </variation>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="7Kq-cH-jdv" firstAttribute="height" secondItem="P9S-Qe-0v1" secondAttribute="height" multiplier="0.1" id="vBZ-PT-AET"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89411764705882346" green="0.89411764705882346" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P9S-Qe-0v1" firstAttribute="centerX" secondItem="Mgc-M3-DSt" secondAttribute="centerX" id="18V-jn-Jkm"/>
+                            <constraint firstItem="P9S-Qe-0v1" firstAttribute="width" secondItem="GpB-l5-smB" secondAttribute="width" multiplier="0.9" id="4gG-Vv-9Du"/>
+                            <constraint firstItem="P9S-Qe-0v1" firstAttribute="top" secondItem="Mgc-M3-DSt" secondAttribute="top" id="MQT-lh-qdk"/>
+                            <constraint firstItem="Mgc-M3-DSt" firstAttribute="bottom" secondItem="P9S-Qe-0v1" secondAttribute="bottom" id="SNU-3h-3Xo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mgc-M3-DSt"/>
+                    </view>
+                    <connections>
+                        <outlet property="Soccer1" destination="NUM-YB-ytu" id="g0U-5t-H5G"/>
+                        <outlet property="Soccer10" destination="x2a-le-Is1" id="Nr4-6g-AQu"/>
+                        <outlet property="Soccer11" destination="WCl-Q5-d3w" id="0Et-0R-jrj"/>
+                        <outlet property="Soccer2" destination="ynX-QK-Gr4" id="Ux2-Su-Azu"/>
+                        <outlet property="Soccer3" destination="hks-mZ-aiz" id="gGJ-qz-rBR"/>
+                        <outlet property="Soccer4" destination="CR0-uP-77d" id="pcW-lg-hv1"/>
+                        <outlet property="Soccer5" destination="RI1-XU-N3b" id="kA1-xM-LRd"/>
+                        <outlet property="Soccer6" destination="E31-Qz-mOC" id="Rt9-h8-31j"/>
+                        <outlet property="Soccer7" destination="3IR-IJ-NSs" id="g7i-Lq-aM1"/>
+                        <outlet property="Soccer8" destination="qRC-6C-PLu" id="p4z-tw-QnS"/>
+                        <outlet property="Soccer9" destination="MG1-sg-8DI" id="XA5-UO-Svs"/>
+                        <outlet property="left_view" destination="hUt-vA-WWW" id="siV-e1-p8q"/>
+                        <outlet property="stack1" destination="7Kq-cH-jdv" id="K2G-3I-Mfa"/>
+                        <outlet property="tacticalTableView" destination="V9R-ey-pxn" id="oxk-cn-RWd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vTp-TB-hD5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="aL0-eV-Xcb">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="JCL-ce-CpM"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Wxs-q6-99c">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="N7m-e9-Hcj"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="c4c-Mq-vxX">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="8Xe-PF-C98"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="57j-Mi-pgc">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="Hka-PV-NNn"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="mwR-Sp-imA">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="0lc-g9-FUf"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="DgS-Sy-ZPj">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="vm0-N6-LjR"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="nBm-9x-ZRj">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="FqJ-Zg-ILz"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="b0k-dx-Cwj">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="xWm-8G-P0m"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="cO2-SP-eTX">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="wbc-d1-XXn"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="gL4-Vj-2b6">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="vO3-SE-b7B"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="1Dy-sf-LVT">
+                    <connections>
+                        <action selector="Pan_Soccer:" destination="kxE-41-gqh" id="Cxw-Ry-yvX"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1209" y="906"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Aaron Wan-Bissaka" width="26.5" height="26.5"/>
+        <image name="Anthony Martial" width="26.5" height="26.5"/>
+        <image name="Bruno Fernandes" width="26.5" height="26.5"/>
+        <image name="De Gea 1" width="26.5" height="26.5"/>
+        <image name="Eric Bailly 1" width="26.5" height="26.5"/>
+        <image name="Harry Maguire 1" width="26.5" height="26.5"/>
+        <image name="LogoApp" width="96" height="107"/>
+        <image name="Luke Shaw" width="26.5" height="26.5"/>
+        <image name="Marcus Rashford" width="26.5" height="26.5"/>
+        <image name="Mason Greenwood" width="27" height="26.5"/>
+        <image name="Paul Pogba 1" width="26.5" height="26.5"/>
+        <image name="Scott McTominay" width="26.5" height="26.5"/>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+    </resources>
+</document>

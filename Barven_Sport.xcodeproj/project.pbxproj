@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B84D5C247E4D7D00A299A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5B247E4D7D00A299A1 /* AppDelegate.swift */; };
+		15B84D5E247E4D7D00A299A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */; };
+		15B84D60247E4D7D00A299A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5F247E4D7D00A299A1 /* ViewController.swift */; };
+		15B84D63247E4D7D00A299A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D61247E4D7D00A299A1 /* Main.storyboard */; };
+		15B84D66247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D64247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld */; };
+		15B84D68247E4D8300A299A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D67247E4D8300A299A1 /* Assets.xcassets */; };
+		15B84D6B247E4D8300A299A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */; };
+		15B84D76247E4D8300A299A1 /* Barven_SportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D75247E4D8300A299A1 /* Barven_SportTests.swift */; };
+		15B84D81247E4D8300A299A1 /* Barven_SportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D80247E4D8300A299A1 /* Barven_SportUITests.swift */; };
+		15B84DA7247E503400A299A1 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D8F247E503300A299A1 /* SF-Pro-Display-Thin.otf */; };
+		15B84DA8247E503400A299A1 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D90247E503300A299A1 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		15B84DA9247E503400A299A1 /* Bellerose.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D91247E503300A299A1 /* Bellerose.ttf */; };
+		15B84DAA247E503400A299A1 /* bellerose.zip in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D93247E503300A299A1 /* bellerose.zip */; };
+		15B84DAB247E503400A299A1 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D94247E503300A299A1 /* SF-Pro-Display-RegularItalic.otf */; };
+		15B84DAC247E503400A299A1 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D95247E503300A299A1 /* SF-Pro-Display-Light.otf */; };
+		15B84DAD247E503400A299A1 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D96247E503300A299A1 /* SF-Pro-Display-Regular.otf */; };
+		15B84DAE247E503400A299A1 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D97247E503300A299A1 /* SF-Pro-Display-Bold.otf */; };
+		15B84DAF247E503400A299A1 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D98247E503300A299A1 /* SF-Pro-Display-Medium.otf */; };
+		15B84DB0247E503400A299A1 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D99247E503400A299A1 /* SF-Pro-Display-Heavy.otf */; };
+		15B84DB1247E503400A299A1 /* Bellerose 16-05-40-382.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D9A247E503400A299A1 /* Bellerose 16-05-40-382.ttf */; };
+		15B84DB2247E503400A299A1 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D9B247E503400A299A1 /* SF-Pro-Display-Semibold.otf */; };
+		15B84DB3247E503400A299A1 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D9C247E503400A299A1 /* SF-Pro-Display-MediumItalic.otf */; };
+		15B84DB4247E503400A299A1 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D9D247E503400A299A1 /* SF-Pro-Display-HeavyItalic.otf */; };
+		15B84DB5247E503400A299A1 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D9E247E503400A299A1 /* SF-Pro-Display-Ultralight.otf */; };
+		15B84DB6247E503400A299A1 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D9F247E503400A299A1 /* SF-Pro-Display-UltralightItalic.otf */; };
+		15B84DB7247E503400A299A1 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA0247E503400A299A1 /* SF-Pro-Display-LightItalic.otf */; };
+		15B84DB8247E503400A299A1 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA1247E503400A299A1 /* SF-Pro-Display-BlackItalic.otf */; };
+		15B84DB9247E503400A299A1 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA2247E503400A299A1 /* SF-Pro-Display-Black.otf */; };
+		15B84DBA247E503400A299A1 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA3247E503400A299A1 /* FontsFree-Net-SFProDisplay-Regular.ttf */; };
+		15B84DBB247E503400A299A1 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA4247E503400A299A1 /* SF-Pro-Display-ThinItalic.otf */; };
+		15B84DBC247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA5247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf */; };
+		15B84DBD247E503400A299A1 /* UTM Alter Gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA6247E503400A299A1 /* UTM Alter Gothic.ttf */; };
+		15B84DBF247E5F9600A299A1 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84DBE247E5F9600A299A1 /* CustomUIView.swift */; };
+		15B84DC3247E790300A299A1 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84DC2247E790300A299A1 /* PositionViewController.swift */; };
+		15B84DC5247E798700A299A1 /* TacticalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */; };
+		15E4332724878DCE00478359 /* Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4332624878DCE00478359 /* Soccer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15B84D72247E4D8300A299A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15B84D50247E4D7D00A299A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15B84D57247E4D7D00A299A1;
+			remoteInfo = Barven_Sport;
+		};
+		15B84D7D247E4D8300A299A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15B84D50247E4D7D00A299A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15B84D57247E4D7D00A299A1;
+			remoteInfo = Barven_Sport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15B84D58247E4D7D00A299A1 /* Barven_Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barven_Sport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B84D5B247E4D7D00A299A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15B84D5F247E4D7D00A299A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15B84D62247E4D7D00A299A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15B84D65247E4D7D00A299A1 /* Barven_Sport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barven_Sport.xcdatamodel; sourceTree = "<group>"; };
+		15B84D67247E4D8300A299A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15B84D6A247E4D8300A299A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15B84D6C247E4D8300A299A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B84D71247E4D8300A299A1 /* Barven_SportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Barven_SportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B84D75247E4D8300A299A1 /* Barven_SportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barven_SportTests.swift; sourceTree = "<group>"; };
+		15B84D77247E4D8300A299A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B84D7C247E4D8300A299A1 /* Barven_SportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Barven_SportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B84D80247E4D8300A299A1 /* Barven_SportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barven_SportUITests.swift; sourceTree = "<group>"; };
+		15B84D82247E4D8300A299A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B84D8F247E503300A299A1 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		15B84D90247E503300A299A1 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		15B84D92247E503300A299A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Bellerose.ttf; sourceTree = "<group>"; };
+		15B84D93247E503300A299A1 /* bellerose.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = bellerose.zip; sourceTree = "<group>"; };
+		15B84D94247E503300A299A1 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		15B84D95247E503300A299A1 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		15B84D96247E503300A299A1 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		15B84D97247E503300A299A1 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		15B84D98247E503300A299A1 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		15B84D99247E503400A299A1 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		15B84D9A247E503400A299A1 /* Bellerose 16-05-40-382.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bellerose 16-05-40-382.ttf"; sourceTree = "<group>"; };
+		15B84D9B247E503400A299A1 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		15B84D9C247E503400A299A1 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		15B84D9D247E503400A299A1 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		15B84D9E247E503400A299A1 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		15B84D9F247E503400A299A1 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		15B84DA0247E503400A299A1 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		15B84DA1247E503400A299A1 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		15B84DA2247E503400A299A1 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		15B84DA3247E503400A299A1 /* FontsFree-Net-SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		15B84DA4247E503400A299A1 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		15B84DA5247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		15B84DA6247E503400A299A1 /* UTM Alter Gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UTM Alter Gothic.ttf"; sourceTree = "<group>"; };
+		15B84DBE247E5F9600A299A1 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
+		15B84DC2247E790300A299A1 /* PositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticalTableViewCell.swift; sourceTree = "<group>"; };
+		15E4332624878DCE00478359 /* Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15B84D55247E4D7D00A299A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B84D6E247E4D8300A299A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B84D79247E4D8300A299A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B84D4F247E4D7D00A299A1 = {
+			isa = PBXGroup;
+			children = (
+				15B84D5A247E4D7D00A299A1 /* Barven_Sport */,
+				15B84D74247E4D8300A299A1 /* Barven_SportTests */,
+				15B84D7F247E4D8300A299A1 /* Barven_SportUITests */,
+				15B84D59247E4D7D00A299A1 /* Products */,
+				15B84D8E247E503300A299A1 /* font */,
+			);
+			sourceTree = "<group>";
+		};
+		15B84D59247E4D7D00A299A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15B84D58247E4D7D00A299A1 /* Barven_Sport.app */,
+				15B84D71247E4D8300A299A1 /* Barven_SportTests.xctest */,
+				15B84D7C247E4D8300A299A1 /* Barven_SportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15B84D5A247E4D7D00A299A1 /* Barven_Sport */ = {
+			isa = PBXGroup;
+			children = (
+				15B84D5B247E4D7D00A299A1 /* AppDelegate.swift */,
+				15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */,
+				15B84D5F247E4D7D00A299A1 /* ViewController.swift */,
+				15B84DBE247E5F9600A299A1 /* CustomUIView.swift */,
+				15B84D61247E4D7D00A299A1 /* Main.storyboard */,
+				15B84DC2247E790300A299A1 /* PositionViewController.swift */,
+				15E4332624878DCE00478359 /* Soccer.swift */,
+				15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */,
+				15B84D67247E4D8300A299A1 /* Assets.xcassets */,
+				15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */,
+				15B84D6C247E4D8300A299A1 /* Info.plist */,
+				15B84D64247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld */,
+			);
+			path = Barven_Sport;
+			sourceTree = "<group>";
+		};
+		15B84D74247E4D8300A299A1 /* Barven_SportTests */ = {
+			isa = PBXGroup;
+			children = (
+				15B84D75247E4D8300A299A1 /* Barven_SportTests.swift */,
+				15B84D77247E4D8300A299A1 /* Info.plist */,
+			);
+			path = Barven_SportTests;
+			sourceTree = "<group>";
+		};
+		15B84D7F247E4D8300A299A1 /* Barven_SportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15B84D80247E4D8300A299A1 /* Barven_SportUITests.swift */,
+				15B84D82247E4D8300A299A1 /* Info.plist */,
+			);
+			path = Barven_SportUITests;
+			sourceTree = "<group>";
+		};
+		15B84D8E247E503300A299A1 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				15B84D8F247E503300A299A1 /* SF-Pro-Display-Thin.otf */,
+				15B84D90247E503300A299A1 /* SF-Pro-Display-SemiboldItalic.otf */,
+				15B84D91247E503300A299A1 /* Bellerose.ttf */,
+				15B84D93247E503300A299A1 /* bellerose.zip */,
+				15B84D94247E503300A299A1 /* SF-Pro-Display-RegularItalic.otf */,
+				15B84D95247E503300A299A1 /* SF-Pro-Display-Light.otf */,
+				15B84D96247E503300A299A1 /* SF-Pro-Display-Regular.otf */,
+				15B84D97247E503300A299A1 /* SF-Pro-Display-Bold.otf */,
+				15B84D98247E503300A299A1 /* SF-Pro-Display-Medium.otf */,
+				15B84D99247E503400A299A1 /* SF-Pro-Display-Heavy.otf */,
+				15B84D9A247E503400A299A1 /* Bellerose 16-05-40-382.ttf */,
+				15B84D9B247E503400A299A1 /* SF-Pro-Display-Semibold.otf */,
+				15B84D9C247E503400A299A1 /* SF-Pro-Display-MediumItalic.otf */,
+				15B84D9D247E503400A299A1 /* SF-Pro-Display-HeavyItalic.otf */,
+				15B84D9E247E503400A299A1 /* SF-Pro-Display-Ultralight.otf */,
+				15B84D9F247E503400A299A1 /* SF-Pro-Display-UltralightItalic.otf */,
+				15B84DA0247E503400A299A1 /* SF-Pro-Display-LightItalic.otf */,
+				15B84DA1247E503400A299A1 /* SF-Pro-Display-BlackItalic.otf */,
+				15B84DA2247E503400A299A1 /* SF-Pro-Display-Black.otf */,
+				15B84DA3247E503400A299A1 /* FontsFree-Net-SFProDisplay-Regular.ttf */,
+				15B84DA4247E503400A299A1 /* SF-Pro-Display-ThinItalic.otf */,
+				15B84DA5247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf */,
+				15B84DA6247E503400A299A1 /* UTM Alter Gothic.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15B84D57247E4D7D00A299A1 /* Barven_Sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B84D85247E4D8300A299A1 /* Build configuration list for PBXNativeTarget "Barven_Sport" */;
+			buildPhases = (
+				15B84D54247E4D7D00A299A1 /* Sources */,
+				15B84D55247E4D7D00A299A1 /* Frameworks */,
+				15B84D56247E4D7D00A299A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barven_Sport;
+			productName = Barven_Sport;
+			productReference = 15B84D58247E4D7D00A299A1 /* Barven_Sport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15B84D70247E4D8300A299A1 /* Barven_SportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B84D88247E4D8300A299A1 /* Build configuration list for PBXNativeTarget "Barven_SportTests" */;
+			buildPhases = (
+				15B84D6D247E4D8300A299A1 /* Sources */,
+				15B84D6E247E4D8300A299A1 /* Frameworks */,
+				15B84D6F247E4D8300A299A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15B84D73247E4D8300A299A1 /* PBXTargetDependency */,
+			);
+			name = Barven_SportTests;
+			productName = Barven_SportTests;
+			productReference = 15B84D71247E4D8300A299A1 /* Barven_SportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15B84D7B247E4D8300A299A1 /* Barven_SportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B84D8B247E4D8300A299A1 /* Build configuration list for PBXNativeTarget "Barven_SportUITests" */;
+			buildPhases = (
+				15B84D78247E4D8300A299A1 /* Sources */,
+				15B84D79247E4D8300A299A1 /* Frameworks */,
+				15B84D7A247E4D8300A299A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15B84D7E247E4D8300A299A1 /* PBXTargetDependency */,
+			);
+			name = Barven_SportUITests;
+			productName = Barven_SportUITests;
+			productReference = 15B84D7C247E4D8300A299A1 /* Barven_SportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15B84D50247E4D7D00A299A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Nguyễn Minh Hiếu";
+				TargetAttributes = {
+					15B84D57247E4D7D00A299A1 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					15B84D70247E4D8300A299A1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 15B84D57247E4D7D00A299A1;
+					};
+					15B84D7B247E4D8300A299A1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 15B84D57247E4D7D00A299A1;
+					};
+				};
+			};
+			buildConfigurationList = 15B84D53247E4D7D00A299A1 /* Build configuration list for PBXProject "Barven_Sport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15B84D4F247E4D7D00A299A1;
+			productRefGroup = 15B84D59247E4D7D00A299A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15B84D57247E4D7D00A299A1 /* Barven_Sport */,
+				15B84D70247E4D8300A299A1 /* Barven_SportTests */,
+				15B84D7B247E4D8300A299A1 /* Barven_SportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15B84D56247E4D7D00A299A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B84DAF247E503400A299A1 /* SF-Pro-Display-Medium.otf in Resources */,
+				15B84DA9247E503400A299A1 /* Bellerose.ttf in Resources */,
+				15B84DB7247E503400A299A1 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				15B84DA7247E503400A299A1 /* SF-Pro-Display-Thin.otf in Resources */,
+				15B84DBB247E503400A299A1 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				15B84DB5247E503400A299A1 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				15B84DB1247E503400A299A1 /* Bellerose 16-05-40-382.ttf in Resources */,
+				15B84DB3247E503400A299A1 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				15B84DAA247E503400A299A1 /* bellerose.zip in Resources */,
+				15B84DB6247E503400A299A1 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				15B84DBD247E503400A299A1 /* UTM Alter Gothic.ttf in Resources */,
+				15B84D6B247E4D8300A299A1 /* LaunchScreen.storyboard in Resources */,
+				15B84DAC247E503400A299A1 /* SF-Pro-Display-Light.otf in Resources */,
+				15B84DAB247E503400A299A1 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				15B84DBA247E503400A299A1 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */,
+				15B84DB0247E503400A299A1 /* SF-Pro-Display-Heavy.otf in Resources */,
+				15B84DBC247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				15B84DB4247E503400A299A1 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				15B84D68247E4D8300A299A1 /* Assets.xcassets in Resources */,
+				15B84DB9247E503400A299A1 /* SF-Pro-Display-Black.otf in Resources */,
+				15B84D63247E4D7D00A299A1 /* Main.storyboard in Resources */,
+				15B84DB8247E503400A299A1 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				15B84DAD247E503400A299A1 /* SF-Pro-Display-Regular.otf in Resources */,
+				15B84DB2247E503400A299A1 /* SF-Pro-Display-Semibold.otf in Resources */,
+				15B84DA8247E503400A299A1 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				15B84DAE247E503400A299A1 /* SF-Pro-Display-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B84D6F247E4D8300A299A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B84D7A247E4D8300A299A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B84D54247E4D7D00A299A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B84D60247E4D7D00A299A1 /* ViewController.swift in Sources */,
+				15B84DBF247E5F9600A299A1 /* CustomUIView.swift in Sources */,
+				15B84D5C247E4D7D00A299A1 /* AppDelegate.swift in Sources */,
+				15B84DC3247E790300A299A1 /* PositionViewController.swift in Sources */,
+				15B84DC5247E798700A299A1 /* TacticalTableViewCell.swift in Sources */,
+				15B84D66247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld in Sources */,
+				15E4332724878DCE00478359 /* Soccer.swift in Sources */,
+				15B84D5E247E4D7D00A299A1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B84D6D247E4D8300A299A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B84D76247E4D8300A299A1 /* Barven_SportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15B84D78247E4D8300A299A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B84D81247E4D8300A299A1 /* Barven_SportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15B84D73247E4D8300A299A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15B84D57247E4D7D00A299A1 /* Barven_Sport */;
+			targetProxy = 15B84D72247E4D8300A299A1 /* PBXContainerItemProxy */;
+		};
+		15B84D7E247E4D8300A299A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15B84D57247E4D7D00A299A1 /* Barven_Sport */;
+			targetProxy = 15B84D7D247E4D8300A299A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15B84D61247E4D7D00A299A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B84D62247E4D7D00A299A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B84D6A247E4D8300A299A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		15B84D91247E503300A299A1 /* Bellerose.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B84D92247E503300A299A1 /* en */,
+			);
+			name = Bellerose.ttf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15B84D83247E4D8300A299A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15B84D84247E4D8300A299A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15B84D86247E4D8300A299A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABK98C7328;
+				INFOPLIST_FILE = Barven_Sport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nguyenhieu.Barven-Sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15B84D87247E4D8300A299A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ABK98C7328;
+				INFOPLIST_FILE = Barven_Sport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nguyenhieu.Barven-Sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15B84D89247E4D8300A299A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Barven_SportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nguyenhieu.Barven-SportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barven_Sport.app/Barven_Sport";
+			};
+			name = Debug;
+		};
+		15B84D8A247E4D8300A299A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Barven_SportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nguyenhieu.Barven-SportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barven_Sport.app/Barven_Sport";
+			};
+			name = Release;
+		};
+		15B84D8C247E4D8300A299A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Barven_SportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nguyenhieu.Barven-SportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barven_Sport;
+			};
+			name = Debug;
+		};
+		15B84D8D247E4D8300A299A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Barven_SportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nguyenhieu.Barven-SportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barven_Sport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B84D53247E4D7D00A299A1 /* Build configuration list for PBXProject "Barven_Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B84D83247E4D8300A299A1 /* Debug */,
+				15B84D84247E4D8300A299A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B84D85247E4D8300A299A1 /* Build configuration list for PBXNativeTarget "Barven_Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B84D86247E4D8300A299A1 /* Debug */,
+				15B84D87247E4D8300A299A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B84D88247E4D8300A299A1 /* Build configuration list for PBXNativeTarget "Barven_SportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B84D89247E4D8300A299A1 /* Debug */,
+				15B84D8A247E4D8300A299A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B84D8B247E4D8300A299A1 /* Build configuration list for PBXNativeTarget "Barven_SportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B84D8C247E4D8300A299A1 /* Debug */,
+				15B84D8D247E4D8300A299A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15B84D64247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15B84D65247E4D7D00A299A1 /* Barven_Sport.xcdatamodel */,
+			);
+			currentVersion = 15B84D65247E4D7D00A299A1 /* Barven_Sport.xcdatamodel */;
+			path = Barven_Sport.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15B84D50247E4D7D00A299A1 /* Project object */;
+}
