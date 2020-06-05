@@ -88,7 +88,7 @@ class PositionLandscapeViewController: UIViewController {
         //fix
         if sender.state == .changed {
             
-            print(checkOverride(sender))
+//            print(checkOverride(sender))
             if checkOverride(sender) != -1 {
                 arraySoccer[checkOverride(sender)].name!.alpha = 0.2
             }
@@ -129,7 +129,7 @@ class PositionLandscapeViewController: UIViewController {
 
     //SWAP SOCCER
     func swapSoccer(_ pan : UIPanGestureRecognizer,_ n : Int,_ s : Int) {
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: 0.4) {
             if n != -1 && s != -1 {
                 self.arraySoccer[n].name?.frame.origin = CGPoint(x: self.arraySoccer[s].center!.x - self.arraySize[n].width/2, y: self.arraySoccer[s].location!.origin.y)
                 pan.view?.frame.origin = CGPoint(x: self.arraySoccer[n].center!.x - self.arraySize[s].width/2, y: self.arraySoccer[n].location!.origin.y)

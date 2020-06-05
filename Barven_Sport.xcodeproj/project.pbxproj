@@ -15,7 +15,7 @@
 		15B84D60247E4D7D00A299A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5F247E4D7D00A299A1 /* ViewController.swift */; };
 		15B84D66247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D64247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld */; };
 		15B84D68247E4D8300A299A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D67247E4D8300A299A1 /* Assets.xcassets */; };
-		15B84D6B247E4D8300A299A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */; };
+		15B84D6B247E4D8300A299A1 /* LaunchScreenLandscape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D69247E4D8300A299A1 /* LaunchScreenLandscape.storyboard */; };
 		15B84D76247E4D8300A299A1 /* Barven_SportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D75247E4D8300A299A1 /* Barven_SportTests.swift */; };
 		15B84D81247E4D8300A299A1 /* Barven_SportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D80247E4D8300A299A1 /* Barven_SportUITests.swift */; };
 		15B84DA7247E503400A299A1 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D8F247E503300A299A1 /* SF-Pro-Display-Thin.otf */; };
@@ -74,7 +74,7 @@
 		15B84D5F247E4D7D00A299A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15B84D65247E4D7D00A299A1 /* Barven_Sport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barven_Sport.xcdatamodel; sourceTree = "<group>"; };
 		15B84D67247E4D8300A299A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		15B84D6A247E4D8300A299A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15B84D6A247E4D8300A299A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreenLandscape.storyboard; sourceTree = "<group>"; };
 		15B84D6C247E4D8300A299A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B84D71247E4D8300A299A1 /* Barven_SportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Barven_SportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B84D75247E4D8300A299A1 /* Barven_SportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barven_SportTests.swift; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 				15E4332624878DCE00478359 /* Soccer.swift */,
 				15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */,
 				15B84D67247E4D8300A299A1 /* Assets.xcassets */,
-				15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */,
+				15B84D69247E4D8300A299A1 /* LaunchScreenLandscape.storyboard */,
 				15B84D6C247E4D8300A299A1 /* Info.plist */,
 				15B84D64247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld */,
 			);
@@ -343,7 +343,7 @@
 				15B84DAA247E503400A299A1 /* bellerose.zip in Resources */,
 				15B84DB6247E503400A299A1 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
 				15B84DBD247E503400A299A1 /* UTM Alter Gothic.ttf in Resources */,
-				15B84D6B247E4D8300A299A1 /* LaunchScreen.storyboard in Resources */,
+				15B84D6B247E4D8300A299A1 /* LaunchScreenLandscape.storyboard in Resources */,
 				15B84DAC247E503400A299A1 /* SF-Pro-Display-Light.otf in Resources */,
 				15B84DAB247E503400A299A1 /* SF-Pro-Display-RegularItalic.otf in Resources */,
 				15B84DBA247E503400A299A1 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */,
@@ -425,12 +425,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */ = {
+		15B84D69247E4D8300A299A1 /* LaunchScreenLandscape.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				15B84D6A247E4D8300A299A1 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreenLandscape.storyboard;
 			sourceTree = "<group>";
 		};
 		15B84D91247E503300A299A1 /* Bellerose.ttf */ = {
