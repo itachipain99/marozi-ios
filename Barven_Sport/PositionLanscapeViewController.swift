@@ -120,16 +120,10 @@ class PositionLanscapeViewController: UIViewController {
     }
     //CHECK OVERRIDE
     func checkOverride(_ pan : UIPanGestureRecognizer) -> Int{
-        print(CGPoint(x: pan.view!.center.x - pan.view!.bounds.height/2, y: pan.view!.center.y - pan.view!.bounds.height/2))
-        print(CGPoint(x: pan.view!.center.x + pan.view!.bounds.height/2, y: pan.view!.center.y - pan.view!.bounds.height/2))
-        print(CGPoint(x: pan.view!.center.x - pan.view!.bounds.height/2, y: pan.view!.center.y + pan.view!.bounds.height/2))
-        print(CGPoint(x: pan.view!.center.x + pan.view!.bounds.height/2, y: pan.view!.center.y + pan.view!.bounds.height/2))
         for i in 0..<11{
-//            if arraySoccer[i].location!.contains(CGPoint(x: pan.view!.center.x - pan.view!.bounds.height/2, y: pan.view!.center.y - pan.view!.bounds.height/2)) || arraySoccer[i].location!.contains(CGPoint(x: pan.view!.center.x + pan.view!.bounds.height/2, y: pan.view!.center.y - pan.view!.bounds.height/2)) ||
-//                arraySoccer[i].location!.contains(CGPoint(x: pan.view!.center.x - pan.view!.bounds.height/2, y: pan.view!.center.y + pan.view!.bounds.height/2)) || arraySoccer[i].location!.contains(CGPoint(x: pan.view!.center.x + pan.view!.bounds.height/2, y: pan.view!.center.y + pan.view!.bounds.height/2)){
-//            if arraySoccer[i].location!.contains(<#T##point: CGPoint##CGPoint#>){
-//                return i
-//            }
+            if arraySoccer[i].location!.intersects(pan.view!.frame){
+                return i
+            }
         }
         return -1
     }
