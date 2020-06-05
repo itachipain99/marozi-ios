@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		152B0BF42489026600680DA0 /* PositionViewPortraitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0BF32489026600680DA0 /* PositionViewPortraitController.swift */; };
+		15107343248A350F00C5BBD6 /* PositionViewPortraitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15107342248A350F00C5BBD6 /* PositionViewPortraitController.swift */; };
+		15107345248A35A300C5BBD6 /* MainLandscape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15107344248A35A300C5BBD6 /* MainLandscape.storyboard */; };
 		152B0BF6248902C600680DA0 /* MainPortrait.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152B0BF5248902C600680DA0 /* MainPortrait.storyboard */; };
 		15B84D5C247E4D7D00A299A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5B247E4D7D00A299A1 /* AppDelegate.swift */; };
 		15B84D5E247E4D7D00A299A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */; };
 		15B84D60247E4D7D00A299A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5F247E4D7D00A299A1 /* ViewController.swift */; };
-		15B84D63247E4D7D00A299A1 /* MainLandscape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D61247E4D7D00A299A1 /* MainLandscape.storyboard */; };
 		15B84D66247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D64247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld */; };
 		15B84D68247E4D8300A299A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D67247E4D8300A299A1 /* Assets.xcassets */; };
 		15B84D6B247E4D8300A299A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */; };
@@ -65,13 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		152B0BF32489026600680DA0 /* PositionViewPortraitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PositionViewPortraitController.swift; path = "../../marozi-ios-Nghia-Branch/Marozi-Potrait/Controller/PositionViewPortraitController.swift"; sourceTree = "<group>"; };
+		15107342248A350F00C5BBD6 /* PositionViewPortraitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionViewPortraitController.swift; sourceTree = "<group>"; };
+		15107344248A35A300C5BBD6 /* MainLandscape.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainLandscape.storyboard; path = Barven_Sport/MainLandscape.storyboard; sourceTree = SOURCE_ROOT; };
 		152B0BF5248902C600680DA0 /* MainPortrait.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainPortrait.storyboard; sourceTree = "<group>"; };
 		15B84D58247E4D7D00A299A1 /* Barven_Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barven_Sport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B84D5B247E4D7D00A299A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		15B84D5F247E4D7D00A299A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15B84D62247E4D7D00A299A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainLandscape.storyboard; sourceTree = "<group>"; };
 		15B84D65247E4D7D00A299A1 /* Barven_Sport.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barven_Sport.xcdatamodel; sourceTree = "<group>"; };
 		15B84D67247E4D8300A299A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B84D6A247E4D8300A299A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -163,10 +163,10 @@
 				15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */,
 				15B84D5F247E4D7D00A299A1 /* ViewController.swift */,
 				15B84DBE247E5F9600A299A1 /* CustomUIView.swift */,
-				15B84D61247E4D7D00A299A1 /* MainLandscape.storyboard */,
 				15B84DC2247E790300A299A1 /* PositionLandscapeViewController.swift */,
+				15107344248A35A300C5BBD6 /* MainLandscape.storyboard */,
 				152B0BF5248902C600680DA0 /* MainPortrait.storyboard */,
-				152B0BF32489026600680DA0 /* PositionViewPortraitController.swift */,
+				15107342248A350F00C5BBD6 /* PositionViewPortraitController.swift */,
 				15E4332624878DCE00478359 /* Soccer.swift */,
 				15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */,
 				15B84D67247E4D8300A299A1 /* Assets.xcassets */,
@@ -337,6 +337,7 @@
 				15B84DA7247E503400A299A1 /* SF-Pro-Display-Thin.otf in Resources */,
 				15B84DBB247E503400A299A1 /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				15B84DB5247E503400A299A1 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				15107345248A35A300C5BBD6 /* MainLandscape.storyboard in Resources */,
 				15B84DB1247E503400A299A1 /* Bellerose 16-05-40-382.ttf in Resources */,
 				15B84DB3247E503400A299A1 /* SF-Pro-Display-MediumItalic.otf in Resources */,
 				15B84DAA247E503400A299A1 /* bellerose.zip in Resources */,
@@ -351,7 +352,6 @@
 				15B84DB4247E503400A299A1 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 				15B84D68247E4D8300A299A1 /* Assets.xcassets in Resources */,
 				15B84DB9247E503400A299A1 /* SF-Pro-Display-Black.otf in Resources */,
-				15B84D63247E4D7D00A299A1 /* MainLandscape.storyboard in Resources */,
 				15B84DB8247E503400A299A1 /* SF-Pro-Display-BlackItalic.otf in Resources */,
 				15B84DAD247E503400A299A1 /* SF-Pro-Display-Regular.otf in Resources */,
 				15B84DB2247E503400A299A1 /* SF-Pro-Display-Semibold.otf in Resources */,
@@ -381,13 +381,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15107343248A350F00C5BBD6 /* PositionViewPortraitController.swift in Sources */,
 				15B84D60247E4D7D00A299A1 /* ViewController.swift in Sources */,
 				15B84DBF247E5F9600A299A1 /* CustomUIView.swift in Sources */,
 				15B84D5C247E4D7D00A299A1 /* AppDelegate.swift in Sources */,
 				15B84DC3247E790300A299A1 /* PositionLandscapeViewController.swift in Sources */,
 				15B84DC5247E798700A299A1 /* TacticalTableViewCell.swift in Sources */,
 				15B84D66247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld in Sources */,
-				152B0BF42489026600680DA0 /* PositionViewPortraitController.swift in Sources */,
 				15E4332724878DCE00478359 /* Soccer.swift in Sources */,
 				15B84D5E247E4D7D00A299A1 /* SceneDelegate.swift in Sources */,
 			);
@@ -425,14 +425,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15B84D61247E4D7D00A299A1 /* MainLandscape.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15B84D62247E4D7D00A299A1 /* Base */,
-			);
-			name = MainLandscape.storyboard;
-			sourceTree = "<group>";
-		};
 		15B84D69247E4D8300A299A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
