@@ -11,12 +11,30 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: UIDevice.orientationDidChangeNotification, object: nil)
         return true
+    }
+    var storyboard : UIStoryboard?
+    var window: UIWindow?
+    var initVC: UIViewController!
+    
+    @objc
+    func rotated(){
+        if(UIDevice.current.orientation.isLandscape)
+        {
+             storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+             initVC = storyboard?.instantiateViewController(withIdentifier: "PositionLanscapeViewController") as! PositionLanscapeViewController
+        }
+
+        if(UIDevice.current.orientation.isPortrait)
+        {
+            storyboard = UIStoryboard.init(name: "Main1", bundle: nil)
+            initVC = storyboard?.instantiateViewController(withIdentifier: "PositionViewController") as! PositionViewController
+        }
+        self.window?.rootViewController = initVC
+        self.window?.makeKeyAndVisible()
     }
 
     // MARK: UISceneSession Lifecycle

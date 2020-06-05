@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152B0BF42489026600680DA0 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152B0BF32489026600680DA0 /* PositionViewController.swift */; };
+		152B0BF6248902C600680DA0 /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 152B0BF5248902C600680DA0 /* Main1.storyboard */; };
 		15B84D5C247E4D7D00A299A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5B247E4D7D00A299A1 /* AppDelegate.swift */; };
 		15B84D5E247E4D7D00A299A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */; };
 		15B84D60247E4D7D00A299A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84D5F247E4D7D00A299A1 /* ViewController.swift */; };
@@ -40,7 +42,7 @@
 		15B84DBC247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA5247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf */; };
 		15B84DBD247E503400A299A1 /* UTM Alter Gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15B84DA6247E503400A299A1 /* UTM Alter Gothic.ttf */; };
 		15B84DBF247E5F9600A299A1 /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84DBE247E5F9600A299A1 /* CustomUIView.swift */; };
-		15B84DC3247E790300A299A1 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84DC2247E790300A299A1 /* PositionViewController.swift */; };
+		15B84DC3247E790300A299A1 /* PositionLanscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84DC2247E790300A299A1 /* PositionLanscapeViewController.swift */; };
 		15B84DC5247E798700A299A1 /* TacticalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */; };
 		15E4332724878DCE00478359 /* Soccer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E4332624878DCE00478359 /* Soccer.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152B0BF32489026600680DA0 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PositionViewController.swift; path = "../../marozi-ios-Nghia-Branch/Marozi-Potrait/Controller/PositionViewController.swift"; sourceTree = "<group>"; };
+		152B0BF5248902C600680DA0 /* Main1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main1.storyboard; sourceTree = "<group>"; };
 		15B84D58247E4D7D00A299A1 /* Barven_Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barven_Sport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B84D5B247E4D7D00A299A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B84D5D247E4D7D00A299A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +106,7 @@
 		15B84DA5247E503400A299A1 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
 		15B84DA6247E503400A299A1 /* UTM Alter Gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UTM Alter Gothic.ttf"; sourceTree = "<group>"; };
 		15B84DBE247E5F9600A299A1 /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
-		15B84DC2247E790300A299A1 /* PositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		15B84DC2247E790300A299A1 /* PositionLanscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionLanscapeViewController.swift; sourceTree = "<group>"; };
 		15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticalTableViewCell.swift; sourceTree = "<group>"; };
 		15E4332624878DCE00478359 /* Soccer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soccer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,7 +164,9 @@
 				15B84D5F247E4D7D00A299A1 /* ViewController.swift */,
 				15B84DBE247E5F9600A299A1 /* CustomUIView.swift */,
 				15B84D61247E4D7D00A299A1 /* Main.storyboard */,
-				15B84DC2247E790300A299A1 /* PositionViewController.swift */,
+				15B84DC2247E790300A299A1 /* PositionLanscapeViewController.swift */,
+				152B0BF5248902C600680DA0 /* Main1.storyboard */,
+				152B0BF32489026600680DA0 /* PositionViewController.swift */,
 				15E4332624878DCE00478359 /* Soccer.swift */,
 				15B84DC4247E798700A299A1 /* TacticalTableViewCell.swift */,
 				15B84D67247E4D8300A299A1 /* Assets.xcassets */,
@@ -326,6 +332,7 @@
 			files = (
 				15B84DAF247E503400A299A1 /* SF-Pro-Display-Medium.otf in Resources */,
 				15B84DA9247E503400A299A1 /* Bellerose.ttf in Resources */,
+				152B0BF6248902C600680DA0 /* Main1.storyboard in Resources */,
 				15B84DB7247E503400A299A1 /* SF-Pro-Display-LightItalic.otf in Resources */,
 				15B84DA7247E503400A299A1 /* SF-Pro-Display-Thin.otf in Resources */,
 				15B84DBB247E503400A299A1 /* SF-Pro-Display-ThinItalic.otf in Resources */,
@@ -377,9 +384,10 @@
 				15B84D60247E4D7D00A299A1 /* ViewController.swift in Sources */,
 				15B84DBF247E5F9600A299A1 /* CustomUIView.swift in Sources */,
 				15B84D5C247E4D7D00A299A1 /* AppDelegate.swift in Sources */,
-				15B84DC3247E790300A299A1 /* PositionViewController.swift in Sources */,
+				15B84DC3247E790300A299A1 /* PositionLanscapeViewController.swift in Sources */,
 				15B84DC5247E798700A299A1 /* TacticalTableViewCell.swift in Sources */,
 				15B84D66247E4D7D00A299A1 /* Barven_Sport.xcdatamodeld in Sources */,
+				152B0BF42489026600680DA0 /* PositionViewController.swift in Sources */,
 				15E4332724878DCE00478359 /* Soccer.swift in Sources */,
 				15B84D5E247E4D7D00A299A1 /* SceneDelegate.swift in Sources */,
 			);
