@@ -12,7 +12,7 @@ class TacticalTableViewCell: UITableViewCell {
 
     @IBOutlet weak var lbl_tactical: UILabel!
     
-    weak var parentVC : PositionLanscapeViewController?
+    weak var parentVC : PositionLandscapeViewController?
     
     override func awakeFromNib() {
         super.awakeFromNib()

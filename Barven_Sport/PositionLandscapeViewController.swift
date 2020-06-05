@@ -8,13 +8,12 @@
 
 import UIKit
 
-class PositionLanscapeViewController: UIViewController {
+class PositionLandscapeViewController: UIViewController {
 
     @IBOutlet weak var tacticalTableView: UITableView!
     
     var arrayTactical = ["4-4-2","4-2-3-1","4-1-4-1","4-3-3","4-2-2-2"]
     
-    @IBOutlet weak var stack1: UIStackView!
     @IBOutlet weak var left_view: CustomUIView!
     @IBOutlet weak var Soccer1: UIStackView!
     @IBOutlet weak var Soccer2: UIStackView!
@@ -148,7 +147,7 @@ class PositionLanscapeViewController: UIViewController {
     
 }
 
-extension PositionLanscapeViewController : UITableViewDataSource {
+extension PositionLandscapeViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayTactical.count
     }
@@ -162,7 +161,7 @@ extension PositionLanscapeViewController : UITableViewDataSource {
 
 }
 
-extension PositionLanscapeViewController : UITableViewDelegate {
+extension PositionLandscapeViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return tableView.bounds.height/5.5
     }

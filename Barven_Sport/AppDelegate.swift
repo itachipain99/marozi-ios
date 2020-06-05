@@ -22,16 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     @objc
     func rotated(){
-        if(UIDevice.current.orientation.isLandscape)
-        {
-             storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-             initVC = storyboard?.instantiateViewController(withIdentifier: "PositionLanscapeViewController") as! PositionLanscapeViewController
+        if UIDevice.current.orientation.isLandscape {
+             storyboard = UIStoryboard.init(name: "MainLandscape", bundle: nil)
+             initVC = storyboard?.instantiateViewController(withIdentifier: "PositionLandscapeViewController") as! PositionLandscapeViewController
         }
 
-        if(UIDevice.current.orientation.isPortrait)
-        {
-            storyboard = UIStoryboard.init(name: "Main1", bundle: nil)
-            initVC = storyboard?.instantiateViewController(withIdentifier: "PositionViewController") as! PositionViewController
+        if UIDevice.current.orientation.isPortrait {
+            storyboard = UIStoryboard.init(name: "MainPortrait", bundle: nil)
+            initVC = storyboard?.instantiateViewController(withIdentifier: "PositionViewPortraitController") as! PositionViewPortraitController
         }
         self.window?.rootViewController = initVC
         self.window?.makeKeyAndVisible()

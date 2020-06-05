@@ -4290,10 +4290,10 @@
             </objects>
             <point key="canvasLocation" x="7390" y="1352"/>
         </scene>
-        <!--Position View Controller-->
+        <!--Position View Portrait Controller-->
         <scene sceneID="nmL-VV-7I4">
             <objects>
-                <viewController storyboardIdentifier="PositionViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4mT-GT-lQN" customClass="PositionViewController" customModule="Barven_Sport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PositionViewPortraitController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4mT-GT-lQN" customClass="PositionViewPortraitController" customModule="Barven_Sport" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nGI-no-Rek">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

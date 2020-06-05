@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="888" y="113"/>
         </scene>
-        <!--Position Lanscape View Controller-->
+        <!--Position Landscape View Controller-->
         <scene sceneID="yEe-JV-O7Y">
             <objects>
-                <viewController storyboardIdentifier="PositionLanscapeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kxE-41-gqh" customClass="PositionLanscapeViewController" customModule="Barven_Sport" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PositionLandscapeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kxE-41-gqh" customClass="PositionLandscapeViewController" customModule="Barven_Sport" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GpB-l5-smB">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
