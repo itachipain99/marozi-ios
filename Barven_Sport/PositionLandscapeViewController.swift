@@ -39,7 +39,9 @@ class PositionLandscapeViewController: UIViewController {
         tacticalTableView.dataSource = self
         tacticalTableView.delegate = self
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        AppUtility.lockOrientation(.landscape)
+    }
     override func viewDidAppear(_ animated: Bool) {
         arraySoccer = [Soccer(Soccer1),
                        Soccer(Soccer2),
@@ -56,9 +58,25 @@ class PositionLandscapeViewController: UIViewController {
             arraySize.append(soccer.name!.bounds.size)
         }
     }
-    
-    override func viewDidLayoutSubviews() {
-    }
+//    var cr = 0
+//    override func viewDidLayoutSubviews() {
+//        cr += 1
+//        if cr == 2 {
+//            arraySoccer = [Soccer(Soccer1),
+//                           Soccer(Soccer2),
+//                           Soccer(Soccer3),
+//                           Soccer(Soccer4),
+//                           Soccer(Soccer5),
+//                           Soccer(Soccer6),
+//                           Soccer(Soccer7),
+//                           Soccer(Soccer8),
+//                           Soccer(Soccer9),
+//                           Soccer(Soccer10),
+//                           Soccer(Soccer11),]
+//            arraySoccer.forEach { (soccer) in
+//                arraySize.append(soccer.name!.bounds.size)
+//            }
+//        }
     
     @IBAction func Pan_Soccer(_ sender: UIPanGestureRecognizer) {
         // POSITION WHEN TAP AND SIZE OF PANVIEW

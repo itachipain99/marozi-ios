@@ -28,6 +28,10 @@ class PositionViewPortraitController: UIViewController {
           
           var playerViews = [UIStackView]()
           
+    override func viewWillAppear(_ animated: Bool) {
+        AppUtility.lockOrientation(.portrait)
+    }
+            
           override func viewDidLoad() {
               super.viewDidLoad()
 

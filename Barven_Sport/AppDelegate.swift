@@ -16,24 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        NotificationCenter.default.addObserver(self, selector: #selector(rotated), name: UIDevice.orientationDidChangeNotification, object: nil)
         return true
     }
-//    var storyboard : UIStoryboard?
-//    var window: UIWindow?
-//    var initVC: UIViewController!
-//
-//    @objc
-//    func rotated(){
-//        if UIDevice.current.orientation.isLandscape {
-//             storyboard = UIStoryboard.init(name: "MainLandscape", bundle: nil)
-//             initVC = storyboard?.instantiateViewController(withIdentifier: "PositionLandscapeViewController") as! PositionLandscapeViewController
-//        }
-//
-//        if UIDevice.current.orientation.isPortrait {
-//            storyboard = UIStoryboard.init(name: "MainPortrait", bundle: nil)
-//            initVC = storyboard?.instantiateViewController(withIdentifier: "PositionViewPortraitController") as! PositionViewPortraitController
-//        }
-//        self.window?.rootViewController = initVC
-//        self.window?.makeKeyAndVisible()
-//    }
+    var orientationLock = UIInterfaceOrientationMask.all
+
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+            return self.orientationLock
+    }
 
     // MARK: UISceneSession Lifecycle
 
