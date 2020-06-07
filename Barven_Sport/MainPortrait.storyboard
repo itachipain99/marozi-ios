@@ -7,6 +7,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProDisplay-Regular.ttf">
+            <string>SFProDisplay-Regular</string>
+        </array>
         <array key="SF-Pro-Display-Medium.otf">
             <string>SFProDisplay-Medium</string>
         </array>
@@ -1404,7 +1407,7 @@
                                         <rect key="frame" x="0.0" y="44" width="394" height="522.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="Kcd-o7-6RB" userLabel="De Gea">
-                                                <rect key="frame" x="162" y="423.5" width="70" height="88"/>
+                                                <rect key="frame" x="162" y="423" width="70" height="88.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="De Gea 1" translatesAutoresizingMaskIntoConstraints="NO" id="cb2-KU-SnQ" customClass="PlayerImageView" customModule="Barven_Sport" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -1443,7 +1446,7 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="De Gea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oke-vV-cqK" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="13" y="71" width="44.5" height="17"/>
+                                                        <rect key="frame" x="13" y="71" width="44.5" height="17.5"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="mLD-mi-RKE"/>
                                                         </constraints>
@@ -1514,7 +1517,7 @@
                                                 <gestureRecognizers/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="WYp-lp-xGZ" userLabel="Maigure">
-                                                <rect key="frame" x="110.5" y="320" width="70" height="88.5"/>
+                                                <rect key="frame" x="110.5" y="320" width="70" height="88"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Harry Maguire 1" translatesAutoresizingMaskIntoConstraints="NO" id="qkF-3H-wKb" customClass="PlayerImageView" customModule="Barven_Sport" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -1553,7 +1556,7 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Maigure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5f-UY-kg7" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="10.5" y="71" width="49.5" height="17.5"/>
+                                                        <rect key="frame" x="10.5" y="71" width="49.5" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="usZ-Ji-JRd"/>
                                                         </constraints>
@@ -1568,7 +1571,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="zFq-ae-nvK" userLabel="Bailly">
-                                                <rect key="frame" x="211" y="320.5" width="70" height="88"/>
+                                                <rect key="frame" x="211" y="320" width="70" height="88"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eric Bailly 1" translatesAutoresizingMaskIntoConstraints="NO" id="f0O-X1-Bvw" customClass="PlayerImageView" customModule="Barven_Sport" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -2046,28 +2049,28 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QFa-3c-ZHM">
-                                                <rect key="frame" x="80" y="408.5" width="30.5" height="0.0"/>
+                                                <rect key="frame" x="80" y="408" width="30.5" height="0.0"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="798-UE-meq"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CR3-X1-ntp">
-                                                <rect key="frame" x="180.5" y="408.5" width="30.5" height="0.0"/>
+                                                <rect key="frame" x="180.5" y="408" width="30.5" height="0.0"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="gxD-hd-y2d"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPT-YG-We3">
-                                                <rect key="frame" x="281" y="408.5" width="30.5" height="0.0"/>
+                                                <rect key="frame" x="281" y="408" width="30.5" height="0.0"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" id="xaQ-iu-CMq"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" verticalHuggingPriority="249" translatesAutoresizingMaskIntoConstraints="NO" id="Pu7-b1-6F4">
-                                                <rect key="frame" x="162" y="408.5" width="0.0" height="15"/>
+                                                <rect key="frame" x="162" y="408" width="0.0" height="15"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" id="I0L-QE-mJG"/>
@@ -4365,8 +4368,8 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="De Gea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoO-Yc-SMa" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="13" y="71" width="44.5" height="17"/>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <rect key="frame" x="14.5" y="71" width="41" height="17"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4446,11 +4449,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Maigure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOE-hJ-YH7" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="10" y="71" width="49.5" height="17"/>
+                                                        <rect key="frame" x="12.5" y="71" width="44.5" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="AjD-P2-q56"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4501,11 +4504,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Shaw" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgB-2G-BLi" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="18" y="71" width="34" height="17"/>
+                                                        <rect key="frame" x="19.5" y="71" width="31" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="AwD-xH-Kz4"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4555,11 +4558,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Pogba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcA-mT-yIR" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="15.5" y="71" width="39" height="17"/>
+                                                        <rect key="frame" x="17.5" y="71" width="35" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="HcU-ce-Hhz"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4606,11 +4609,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Bruno" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqq-7m-6Fp" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="17" y="71" width="36.5" height="17"/>
+                                                        <rect key="frame" x="19" y="71" width="32.5" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="9gB-0t-126"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4658,11 +4661,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Martial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDQ-s4-tpv" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="14" y="71" width="42" height="17"/>
+                                                        <rect key="frame" x="16.5" y="71" width="37" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.300000000000001" id="2QV-ud-WFw"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4716,11 +4719,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Bailly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnG-yU-U3g" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="19" y="71" width="32.5" height="17"/>
+                                                        <rect key="frame" x="20.5" y="71" width="29" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="poL-Gh-88v"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4767,11 +4770,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Wan-bisaka" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="m1p-pg-Db7" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="71" width="70" height="17"/>
+                                                        <rect key="frame" x="2.5" y="71" width="65.5" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="9KI-KC-dgB"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4821,11 +4824,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="McTominay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7Z-kh-O3B" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="0.5" y="71" width="69" height="17"/>
+                                                        <rect key="frame" x="4" y="71" width="62.5" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="T4Q-ot-7HJ"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4872,11 +4875,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Greenwood" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="rY8-s3-hNJ" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="71" width="70" height="17"/>
+                                                        <rect key="frame" x="3.5" y="71" width="63.5" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="ofS-Qc-Jwx"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -4923,11 +4926,11 @@
                                                         </variation>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Rashford" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKm-ih-aoH" customClass="PlayerName" customModule="Barven_Sport" customModuleProvider="target">
-                                                        <rect key="frame" x="8" y="71" width="54.5" height="17"/>
+                                                        <rect key="frame" x="10.5" y="71" width="49" height="17"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="17.329999999999998" id="eB6-wa-Evn"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
